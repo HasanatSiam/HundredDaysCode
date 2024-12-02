@@ -7,6 +7,7 @@ student_scores = {
 }
 
 student_grades = {}
+# print(student_grades.items())
 
 for student, score in student_scores.items():
     if 91 <= score <= 100:
